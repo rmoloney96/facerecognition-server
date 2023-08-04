@@ -1,9 +1,9 @@
 import fetch from "node-fetch";
 
 const returnClarifaiRequestOptions = (imageUrl) => {
-    const PAT = '15c5f79e5d684934899d0a7142f605e4';
-    const USER_ID = 'r41jjih0cyx1';       
-    const APP_ID = 'my-first-application-1b3gq9';
+    const PAT = process.env.PAT;
+    const USER_ID = process.env.USER_ID;       
+    const APP_ID = process.env.APP_ID;
     const raw = JSON.stringify({
         "user_app_id": {
             "user_id": USER_ID,
