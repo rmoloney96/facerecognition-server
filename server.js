@@ -7,6 +7,7 @@ import { handleProfileRetrieval } from './controllers/profile.js';
 import { handleSignin } from './controllers/signin.js';
 import { handleEntries, handleApiCall } from './controllers/image.js';
 
+// Some random comment
 const db = knex({
     client: 'pg',
     connection: {
