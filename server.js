@@ -44,6 +44,8 @@ app.put('/image', (req, res) => {handleEntries(req, res, db)});
 
 app.post('/imageurl', (req, res) => {handleApiCall(req, res)});
 
+// Something completely different
+// Example Merge Conflict
 app.listen(process.env.PORT || 3000, ()=> {
     console.log(`App is running ${process.env.PORT}`);
 });
